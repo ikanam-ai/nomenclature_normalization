@@ -1,57 +1,78 @@
-Nomenclature normalization
-==============================
 
-Приведение номенклатуры участников рынка к официальному Классификатору Аметист Кэпитал Строительных Ресурсов
-
-Project Organization
-------------
-
-    ├── LICENSE
-    ├── Makefile           <- Makefile with commands like `make data` or `make train`
-    ├── README.md          <- The top-level README for developers using this project.
-    ├── data
-    │   ├── external       <- Data from third party sources.
-    │   ├── interim        <- Intermediate data that has been transformed.
-    │   ├── processed      <- The final, canonical data sets for modeling.
-    │   └── raw            <- The original, immutable data dump.
-    │
-    ├── docs               <- A default Sphinx project; see sphinx-doc.org for details
-    │
-    ├── models             <- Trained and serialized models, model predictions, or model summaries
-    │
-    ├── notebooks          <- Jupyter notebooks. Naming convention is a number (for ordering),
-    │                         the creator's initials, and a short `-` delimited description, e.g.
-    │                         `1.0-jqp-initial-data-exploration`.
-    │
-    ├── references         <- Data dictionaries, manuals, and all other explanatory materials.
-    │
-    ├── reports            <- Generated analysis as HTML, PDF, LaTeX, etc.
-    │   └── figures        <- Generated graphics and figures to be used in reporting
-    │
-    ├── requirements.txt   <- The requirements file for reproducing the analysis environment, e.g.
-    │                         generated with `pip freeze > requirements.txt`
-    │
-    ├── setup.py           <- makes project pip installable (pip install -e .) so src can be imported
-    ├── src                <- Source code for use in this project.
-    │   ├── __init__.py    <- Makes src a Python module
-    │   │
-    │   ├── data           <- Scripts to download or generate data
-    │   │   └── make_dataset.py
-    │   │
-    │   ├── features       <- Scripts to turn raw data into features for modeling
-    │   │   └── build_features.py
-    │   │
-    │   ├── models         <- Scripts to train models and then use trained models to make
-    │   │   │                 predictions
-    │   │   ├── predict_model.py
-    │   │   └── train_model.py
-    │   │
-    │   └── visualization  <- Scripts to create exploratory and results oriented visualizations
-    │       └── visualize.py
-    │
-    └── tox.ini            <- tox file with settings for running tox; see tox.readthedocs.io
+<p align="center">
+     <H2 align="center">Команда Ikanam 1218 </H2> 
+    <H2 align="center">Кейс "Приведение номенклатуры участников рынка к официальному Классификатору Строительных Ресурсов"</H2> 
+</p>
 
 
---------
+> Команда Ikanam 1218  представляет жюри программный модуль с использованием ИИ для сопоставление строительной номенклатуры со справочником
+строительных ресурсов. Данный программный продукт является мощным инструментом для закупочной деятельности и логистики, а также упрощения взаимодействия между
+различными участниками строительного процесса.
 
-<p><small>Project based on the <a target="_blank" href="https://drivendata.github.io/cookiecutter-data-science/">cookiecutter data science project template</a>. #cookiecutterdatascience</small></p>
+
+## Установка и запуск
+
+**Наше решение разделено на две ключевые части. Первая часть включает в себя подробное руководство по развёртыванию без необходимости взаимодействия с интерфейсом, что обеспечивает быстрое и эффективное тестирование. Вторая часть предоставляет подробные инструкции по развертыванию решения с использованием интерфейса, обеспечивая при этом максимальное удобство для процесса верификации и классификации материалов.**
+
+***Часть 1:***
+----------
+
+*1. Загрузите репозиторий на свой компьютер и откройте её в вашей предпочитаемой среде разработки (IDE).* 
+
+*2. Откройте терминал в IDE и введите туда следующую команду:* 
+
+```python
+python -m venv .venv
+```
+*3. Дождитесь создание папки `.venv` затем введите следующую команду:*
+
+```python
+.\.venv\Scripts\activate
+```
+*4. После активации установите все библиотеки (весрия python==3.10+) при помощи данной команды:*
+
+```python
+pip install -r requirements.txt
+```
+
+*5. Дождитесь установки всех библиотек и введите следующую команду.*
+
+```python
+pip install parse_hh_data==0.1.14
+```
+
+*6. Прекрасно! Теперь в терминале введите команду для перехода к основной папке с кодом проекта.*
+
+```shell
+cd src 
+```
+
+*7. Для запуска сервиса, введите следующую команду.*
+
+```python
+streamlit run src/app.py
+```
+
+
+
+# Пример использования сервиса, иллюстрированный процессом обработки скринкаста.
+
+
+ССЫЛОЧКА на скринкаст
+
+
+# Пример работы сервиса
+
+***Часть 1:***
+
+
+***Часть 2:***
+
+
+
+***Часть 3:***
+
+
+***Часть 4:***
+
+
