@@ -8,7 +8,7 @@ from flask import Flask, request, jsonify
 
 
 class PromptMaster:
-    def __init__(self, api_url="http://83.143.66.61:27368/generate"):
+    def __init__(self, api_url="http://83.143.66.61:27369/generate"):
         self.api_url = api_url
         with open("prompt_master/prompt_list.txt", "r", encoding="utf-8") as file:
             self.prompt = file.read()

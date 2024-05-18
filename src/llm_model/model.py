@@ -2,13 +2,14 @@ import fire
 from llama_cpp import Llama
 
 class Model:
-    def __init__(self, model_path='model-q4_K.gguf', n_ctx=2000, top_k=30, top_p=0.9, temperature=0, repeat_penalty=1.1):
+    def __init__(self, model_path='model-q4_K.gguf', n_ctx=2000, top_k=30, top_p=0.9, temperature=0, repeat_penalty=1.1, n_gpu_layers=-1, verbose=True):
         self.SYSTEM_PROMPT = "" #"Ты — Сайга, русскоязычный автоматический ассистент. Ты разговариваешь с людьми и помогаешь им."
         self.model = Llama(
             model_path=model_path,
             n_ctx=n_ctx,
             n_parts=1,
-            n_gpu_layers=-1
+            n_gpu_layers=-1,
+            verbose=True
         )
         self.top_k = top_k
         self.top_p = top_p
