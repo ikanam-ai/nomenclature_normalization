@@ -1,6 +1,6 @@
 
 <p align="center">
-     <img src="./logo.jpg" alt="Логотип проекта" width="500" style="display: inline-block; vertical-align: middle; margin-right: 10px;"/>  <br/>
+     <img src="./Inverse_Capital.png" alt="Логотип проекта" width="500" style="display: inline-block; vertical-align: middle; margin-right: 10px;"/>  <br/>
      <H2 align="center">Команда Ikanam 1218 </H2> 
     <H2 align="center">Кейс "Приведение номенклатуры участников рынка к официальному Классификатору Строительных Ресурсов"</H2> 
 </p>
