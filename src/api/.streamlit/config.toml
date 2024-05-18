@@ -1,0 +1,23 @@
+# .streamlit/config.toml
+
+[theme]
+# Primary accent for interactive elements
+primaryColor = '#7792E3'
+
+# Background color for the main content area
+backgroundColor = '#FFFFFF'
+
+# Background color for sidebar and most interactive widgets
+secondaryBackgroundColor = '#F8F8FA'
+
+# Color used for almost all text
+textColor = '#373737'
+
+font = "sans serif"  # Шрифт без засечек
+
+[server]
+port = 8080
+
+
+[browser]
+gatherUsageStats = false
