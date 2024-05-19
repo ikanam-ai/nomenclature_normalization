@@ -69,7 +69,11 @@ python3 run api.py
 # Пример использования сервиса, иллюстрированный процессом обработки скринкаста.
 
 
- https://drive.google.com/file/d/1nciuh1Xhip5auIp7XRk3Dv1r7cCATjGP/view
+
+
+
+
+https://github.com/ikanam-ai/nomenclature_normalization/assets/120698866/9bac5f92-b767-4623-bab4-7d94fe9da9c6
 
 
 # Пример работы сервиса
