@@ -100,6 +100,6 @@ https://github.com/ikanam-ai/nomenclature_normalization/assets/120698866/9bac5f9
 </p>
 
 
-***Часть 4:***
+
 
 
