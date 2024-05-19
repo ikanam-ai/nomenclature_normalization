@@ -54,7 +54,7 @@ wget -P /llm_model https://huggingface.co/IlyaGusev/saiga_mistral_7b_gguf/resolv
 *6. Для запуска локальной языковой модели, введите следующие команду.*
 
 ```shell
-python3 nomenclature_normalization/src/llm_model/main_gguf.py
+python3 llm_model/main_gguf.py
 ```
 
 
