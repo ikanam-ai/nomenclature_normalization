@@ -80,12 +80,24 @@ https://github.com/ikanam-ai/nomenclature_normalization/assets/120698866/9bac5f9
 
 ***Часть 1:***
 
+<p align="center">
+    <img src="./1entry.jpg" alt="Логотип проекта" width="900" style="display: inline-block; vertical-align: middle; margin-right: 10px;"/>  <br/>
+    Поиск по неправельной нуменклатуре 
+</p>
+
 
 ***Часть 2:***
-
+<p align="center">
+    <img src="./2search.jpg" alt="Логотип проекта" width="900" style="display: inline-block; vertical-align: middle; margin-right: 10px;"/>  <br/>
+    Найденный правильный код КСР, название, степень уверенности 
+</p>
 
 
 ***Часть 3:***
+<p align="center">
+    <img src="./killerfeature.jpg" alt="Логотип проекта" width="900" style="display: inline-block; vertical-align: middle; margin-right: 10px;"/>  <br/>
+    Анализ полностью csv файла и вывод всех правильных названий и кодов для всего файла 
+</p>
 
 
 ***Часть 4:***
