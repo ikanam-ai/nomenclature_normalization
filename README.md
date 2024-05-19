@@ -44,6 +44,13 @@ cd src
 ```
 
 
+*5.1 Необходимо использовать локальную ллм-модель или указать путь до собственной, предлагаемый пример ниже.*
+
+```shell
+wget -P /llm_model https://huggingface.co/IlyaGusev/saiga_mistral_7b_gguf/resolve/main/model-q4_K.gguf
+```
+
+
 *6. Для запуска локальной языковой модели, введите следующие команду.*
 
 ```shell
