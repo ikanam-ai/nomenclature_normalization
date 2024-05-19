@@ -7,7 +7,7 @@ from ct_perescheta import calcul_ct
 app = Flask(__name__)
 PM = PromptMaster()
 
-df_path = 'data/clean_train.csv'
+df_path = 'data/new_train.csv.csv'
 df = pd.read_csv(df_path).reset_index(drop=True)
 
 ksr_path = 'data/ksr_clean.csv'
