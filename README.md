@@ -69,7 +69,7 @@ python3 run api.py
 # Пример использования сервиса, иллюстрированный процессом обработки скринкаста.
 
 
-ССЫЛОЧКА на скринкаст
+ https://drive.google.com/file/d/1nciuh1Xhip5auIp7XRk3Dv1r7cCATjGP/view
 
 
 # Пример работы сервиса
