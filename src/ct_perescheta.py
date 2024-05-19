@@ -89,50 +89,31 @@ def coef_perescheta_1(ref_unit, col):
       return 1
 
 def coef_perescheta_2(ref_unit, value, col):
-    print(ref_unit, value, col)
-    print('----')
     if len(extract_units_and_values(ref_unit)) == 0:
-        print('zero')
         ct = coef_perescheta_1(ref_unit, col)
         if ct != 'NA':
             ref_mult = 1
             ref_unit = ref_unit
-            print(ref_unit, value, col)
             return ct * value
         else:
             return None
     else:
-        print('2_path')
         ct = coef_perescheta_1(extract_units_and_values(ref_unit)[-1][-1], col)
         if ct != 'NA':
             ref_mult = float(extract_units_and_values(ref_unit)[-1][0])
-            print(ct, ref_mult, ref_unit)
             ref_unit = extract_units_and_values(ref_unit)[-1][-1]
-            print(ct, ref_mult, ref_unit)
             return ref_mult*ct
         else:
             return None
-
-
 
 def calcul_ct(data):
 #  data = {'req':'Бур по бетону SDS-Plus 8x200 mm 10 1 шт 100 л', 'num_class': '100 шт'}
     data['req_ex'] = extract_units_and_values(data['req'])
     if len(data['req_ex']) != 0:
-        print('data')
-        print(data)
         data['filtered_req_ex'] = filter_units(data)
-        print('data')
-        print(data)
         data['value'], data['unit'] = pd.Series(data['filtered_req_ex'])
-        print('data')
-        print(data)
         data['value'] = pd.to_numeric(extract_second_number(data['value']), errors='coerce')
-        print('data_value')
-        print(data)
         data['ct'] = coef_perescheta_2(data['num_class'], data['value'], data['unit'])
-        print('ct')
-        print(data['ct'])
     else:
         data['ct'] = None
     return None if data['ct']==None else float(data['ct'])
