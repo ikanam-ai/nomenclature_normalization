@@ -11,5 +11,5 @@ streamlit run streamlit_app.py
 *2. Доступный сервис будет развернут на вашем локальном адресе* 
 
 ```shell
-localhost:0.0.0.0:8000
+https://localhost:0.0.0.0:8000
 ```
